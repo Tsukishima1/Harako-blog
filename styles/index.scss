@@ -1,1 +1,26 @@
 // you can custom css here
+:root {
+  --va-c-primary-dark: rgb(151, 187, 123);
+  --va-c-primary: rgb(194, 188, 100);
+  --va-c-primary-light: rgb(154, 165, 101);
+  --va-c-brand: rgb(146, 193, 101);
+  --smc-c-primary-light: rgb(147, 186, 117);
+  --smc-c-primary: rgb(194, 188, 100);
+  --va-c-primary-rgb: 60, 150, 181;
+  --va-bg-img: url(https://harako.oss-rg-china-mainland.aliyuncs.com/bg3blur.jpg)!important;
+}
+a {
+  color: rgb(146, 193, 101);
+}
+html.dark {
+  --va-bg-img: url(https://harako.oss-rg-china-mainland.aliyuncs.com/bg2blur.jpg)!important;
+  --va-c-link: rgb(185, 211, 134);
+}
+.yun-card {
+  border-radius: 13px;
+  padding: 10px;
+}
+img.cover.object-cover.object-center.md\:shadow {
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 #f1ecec;
+}

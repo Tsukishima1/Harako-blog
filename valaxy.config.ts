@@ -18,7 +18,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '你好',
+      title: '北川原の部屋',
       cloud: {
         enable: true,
       },
@@ -38,7 +38,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
-  
+
   // Add Waline comments addon
   addons: [
     addonWaline({
