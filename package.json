@@ -1,6 +1,6 @@
 {
   "name": "rebelx-world",
-  "version": "0.14.25",
+  "version": "0.14.35",
   "private": true,
   "scripts": {
     "build": "npm run build:ssg && npm run rss",
@@ -11,8 +11,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.14.25",
-    "valaxy-theme-yun": "0.14.25"
+    "valaxy": "^0.14.35",
+    "valaxy-theme-yun": "^0.14.35"
   },
   "devDependencies": {
     "typescript": "^4.8.4"

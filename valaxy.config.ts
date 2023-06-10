@@ -23,16 +23,31 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
+    colors: {
+      primary: '#A7BF92',
+    },
 
     pages: [
 
     ],
-
+    outlineTitle: '目录',
     footer: {
       since: 2022,
       beian: {
         enable: false,
         icp: '',
+      },
+    },
+    fireworks: {
+      enable: true,
+      colors: ["#83B583", "#A7BF92", "#F2F2F2"],
+    },
+    say: {
+      enable: true,
+      api: "https://el-bot-api.vercel.app/api/words/aoligei",
+      hitokoto: {
+        enable: false,
+        api: "https://v1.hitokoto.cn",
       },
     },
   },
