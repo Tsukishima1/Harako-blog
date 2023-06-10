@@ -3,9 +3,9 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: '',
   lang: 'zh-CN',
-  title: '北川原的部屋',
+  title: '小川原の部屋',
   author: {
-    name: 'Ko Hara',
+    name: 'Hara Ogawa',
     email: 'Akaashi1owo@qq.com',
     avatar: 'https://avatars.githubusercontent.com/u/116432998?v=4',
     status: {

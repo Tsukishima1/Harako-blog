@@ -18,13 +18,13 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '北川原の部屋',
+      title: '小川原の部屋',
       cloud: {
         enable: true,
       },
     },
     colors: {
-      primary: '#A7BF92',
+      primary: '#7A9A63',
     },
 
     pages: [
